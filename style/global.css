@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  /* Colors */
+  --brand-color-light: ;
+  --brand-color-dark: ;
+  --bg-color: ;
+  --steoke-color: ;
+  --text-color-primary: ;
+  --text-color-secundary: ;
+
+  /* Text */
+  --font-family: "Archivo", sans-serif;
+  --text-heading-h1: 800 24px/135% var(--font-family);
+  --text-heading-h2: 800 16px/140% var(--font-family);
+  --text-heading-h3: 800 14px/140% var(--font-family);
+  --text-span: 600 14px/145% var(--font-family);
+  --text: 400 16px/160% var(var(--font-family))
+  --text-paragraph: 400 14px/160% var(--font-family);
+}
+body{
+  font: var(--text);
+  color: var(--text-color-primary);
+  background-color: var(--bg-color);
+}
