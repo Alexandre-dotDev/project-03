@@ -5,12 +5,12 @@
 }
 :root{
   /* Colors */
-  --brand-color-light: ;
-  --brand-color-dark: ;
-  --bg-color: ;
-  --steoke-color: ;
-  --text-color-primary: ;
-  --text-color-secundary: ;
+  --brand-color-light: #60A5FA;
+  --brand-color-dark: #1D4ED8;
+  --bg-color: #0F172A;
+  --steoke-color: #1E293B;
+  --text-color-primary: #F1F5F9;
+  --text-color-secundary: #CBD5E1;
 
   /* Text */
   --font-family: "Archivo", sans-serif;
@@ -25,4 +25,7 @@ body{
   font: var(--text);
   color: var(--text-color-primary);
   background-color: var(--bg-color);
+}
+#logo > img{
+  
 }
