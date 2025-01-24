@@ -1,0 +1,24 @@
+#primary{
+  /* padding-block -> define o espaçamento do eixo vertical (top e bottom) */
+  padding-block: 20px;
+
+  div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* nesting css */
+  div:nth-child(2){
+    /* margin-inline define o espaçamento externo do eixo horizontal (right e left)*/
+    margin-inline: auto;
+  }
+  div:nth-child(3){
+    justify-self: end;
+  }
+}
+#secondary{
+  padding-block: 14px;
+  border: solid 1px var(--steoke-color);
+  border-inline: none;
+}

@@ -1,26 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="./style/index.css">
-  <title>Portal de notícias - Project - 03</title>
-</head>
-<body>
-  <header>
-    <nav id="primary">
-    <div id="logo">
-      <img src="./assents/icons/List.svg" alt="">
-    </div>
-    </nav>
-    <nav id="secundary">
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    </nav>
-  </header>
-</body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style/index.css" />
+    <title>Portal de notícias - Project - 03</title>
+  </head>
+  <body>
+    <header class="container">
+      <nav id="primary" class="grid grid-flow-col">
+        <div id="menu">
+          <img src="./assents/icons/List.svg" alt="Icone de menu" />
+          <strong>Menu</strong>
+        </div>
+        <div id="logo">
+          <img src="./assents/icons/Logo.svg" alt="TecNews logo" />
+        </div>
+        <div id="search">
+          <strong>Buscar</strong>
+          <img src="./assents/icons/MagnifyingGlass.svg" alt="Icone de lupa para pesquisa" />
+        </div>
+      </nav>
+      <nav id="secondary" class="grid grid-flow-col">
+          <a href="#">Inteligência Artificial</a>
+          <a href="#">Blockchain</a>
+          <a href="#">Hologramas</a>
+          <a href="#">Internet</a>
+          <a href="#">Vestíveis</a>
+          <a href="#">Realidade Aumentada</a>
+          <a href="#">Realidade Virtual</a>
+      </nav>
+    </header>
+  </body>
 </html>
