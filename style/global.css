@@ -29,23 +29,19 @@ body{
 h1, h2, h3 {
   font: inherit;
 }
-.container{
-  max-width: 1280px;
-  padding-inline: 32px;
-  margin-inline: auto;
-}
-/* Utility-first */
-.grid{
-  display: grid;
-}
-.grid-flow-col{
-  grid-auto-flow: column;
-}
-.grid-flow-row{
-  grid-auto-flow: row;
+img{
+  max-width: 100%;
 }
 nav a{
   text-decoration: none;
   color: inherit;
   font: var(--text-heading-h3); 
+}
+.container{
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+main{
+  margin-top: 40px;
 }
