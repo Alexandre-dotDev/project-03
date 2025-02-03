@@ -8,7 +8,7 @@
   --brand-color-light: #60A5FA;
   --brand-color-dark: #1D4ED8;
   --bg-color: #0F172A;
-  --steoke-color: #1E293B;
+  --stroke-color: #1E293B;
   --text-color-primary: #F1F5F9;
   --text-color-secundary: #CBD5E1;
 
@@ -18,7 +18,7 @@
   --text-heading-h2: 800 16px/140% var(--font-family);
   --text-heading-h3: 800 14px/140% var(--font-family);
   --text-span: 600 14px/145% var(--font-family);
-  --text: 400 16px/160% var(var(--font-family))
+  --text: 400 16px/160% var(--font-family);
   --text-paragraph: 400 14px/160% var(--font-family);
 }
 body{
@@ -32,7 +32,7 @@ h1, h2, h3 {
 img{
   max-width: 100%;
 }
-nav a{
+a{
   text-decoration: none;
   color: inherit;
   font: var(--text-heading-h3); 
@@ -44,6 +44,7 @@ nav a{
 }
 main{
   margin-top: 40px;
+  gap: 80px;
 }
 .content-tag{
   display: inline-block;
